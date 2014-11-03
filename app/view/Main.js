@@ -24,6 +24,8 @@ Ext.define('CarListings.view.Main', {
         'Ext.grid.View',
         'Ext.grid.column.Template',
         'Ext.XTemplate',
+        'Ext.tab.Panel',
+        'Ext.tab.Tab',
         'Ext.chart.CartesianChart',
         'Ext.chart.axis.Category',
         'Ext.chart.axis.Numeric',
@@ -92,7 +94,27 @@ Ext.define('CarListings.view.Main', {
                 },
                 {
                     xtype: 'container',
-                    flex: 1
+                    flex: 1,
+                    items: [
+                        {
+                            xtype: 'tabpanel',
+                            activeTab: 0,
+                            items: [
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 1'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 2'
+                                },
+                                {
+                                    xtype: 'panel',
+                                    title: 'Tab 3'
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },

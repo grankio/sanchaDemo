@@ -39,7 +39,38 @@
                             ]
                         },
                         {
-                            "id": "c67aae5e-9eb3-493c-a65d-fac9697ffe62"
+                            "id": "c67aae5e-9eb3-493c-a65d-fac9697ffe62",
+                            "cn": [
+                                {
+                                    "id": "12329282-06f7-42c0-8c85-0232a53f194d",
+                                    "cn": [
+                                        {
+                                            "id": "44216d66-9800-4ee1-94d6-f4ac2e3636fc",
+                                            "cn": [
+                                                {
+                                                    "id": "69770d26-fe2a-430b-901c-1cf55c86a141"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "ed42c4a4-3715-4530-bee2-745d7863a58e",
+                                            "cn": [
+                                                {
+                                                    "id": "10321272-63db-4f7b-a17c-64f658715639"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "b6c880c8-00da-4fce-907e-b8fb860c7743",
+                                            "cn": [
+                                                {
+                                                    "id": "ae5dd7a2-4ea3-4751-bbf9-f4670493476a"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 },
@@ -152,7 +183,7 @@
     },
     "inspectorState": {
         "topInstance": "6081e1df-fca4-4be1-a307-0c0434204fae",
-        "selectedInstance": "78c707bc-3756-4dfe-bfc3-e79324bf3b1b"
+        "selectedInstance": "12329282-06f7-42c0-8c85-0232a53f194d"
     },
     "editMode": "design",
     "userSettings": {
